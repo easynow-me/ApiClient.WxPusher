@@ -2,6 +2,12 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageId>EasyNow.ApiClient.WxPusher</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>sxi3265</Authors>
+        <Company>easynow.me</Company>
+        <PackageDescription>WxPusher Client</PackageDescription>
+        <RepositoryUrl>https://github.com/easynow-me/ApiClient.WxPusher</RepositoryUrl>
     </PropertyGroup>
     
     <ItemGroup>
