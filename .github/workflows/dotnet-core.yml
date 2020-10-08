@@ -26,4 +26,5 @@ jobs:
     - name : Publish
       run: |
         dotnet nuget add source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json --name github --username ${{ github.repository_owner }} --password ${{ github.token }} --store-password-in-clear-text
+        dotnet pack -c Release EasyNow.ApiClient.WxPusher/EasyNow.ApiClient.WxPusher.csproj
         dotnet nuget push "EasyNow.ApiClient.WxPusher/bin/Release/EasyNow.ApiClient.WxPusher.1.0.0.nupkg" --source "github"
