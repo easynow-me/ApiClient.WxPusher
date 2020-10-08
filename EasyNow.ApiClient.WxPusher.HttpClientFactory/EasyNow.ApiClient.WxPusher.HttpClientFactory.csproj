@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Refit.HttpClientFactory" Version="5.2.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\EasyNow.ApiClient.WxPusher\EasyNow.ApiClient.WxPusher.csproj" />
+    </ItemGroup>
+
+</Project>
